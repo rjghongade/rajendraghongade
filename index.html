@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Rajendra Ghongade</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="toggle-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="sidebar">
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="/Assets/Raju_Password_Photo.jpeg" alt="Rajendra Ghongade">
+            <h2>Rajendra Ghongade</h2>
+            <p>Software Developer</p>
+            <!-- Theme Toggle Button -->
+            <button id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://github.com/rjghongade" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rajendra-ghongade-07b337259/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:rajughongade9022@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+
+
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#hobbies"><i class="fas fa-heart"></i> Hobbies</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="main-content">
+        <!-- Download CV Button -->
+        <a id="download-cv" href="resume.pdf" download="My_Resume.pdf" target="_blank">
+            <button id="theme-toggle1">
+                <i>Download CV</i>
+            </button>
+        </a>
+
+        <section id="about">
+            <h1>About Me</h1>
+            <p>I am Rajendra Ghongade, a passionate Software Developer with a strong background in cybersecurity and
+                Windows security solutions. Currently, I am working at RAM Antivirus Pvt Ltd, where I specialize in
+                developing real-time malware detection systems, heuristic-based scanning, and ML-based threat analysis.
+                I have contributed to enhancing RAM Antivirus by implementing Windows services for real-time scanning,
+                USB protection, and file-less malware detection.
+                Apart from cybersecurity, I have experience in full-stack development and have worked on various
+                projects, including financial market prediction using machine learning, dynamic malware analysis, and
+                developing information management systems. My technical expertise includes C#, Python, Angular, PHP, and
+                database management with MySQL.
+                I hold a Master’s in Computer Application from North Maharashtra University and have certifications in
+                ethical hacking and penetration testing. I am always eager to learn new technologies and explore
+                innovations in cybersecurity. In my free time, I enjoy researching cybersecurity trends, contributing to
+                open-source projects, and painting.
+                I am looking for opportunities where I can leverage my expertise in cybersecurity and software
+                development to build innovative security solutions and enhance system protection against emerging
+                threats.</p>
+            <p>
+                Results-driven Software Developer with experience in cyber-security and antivirus solutions.
+                Specialized in Windows security development, real-time malware detection, heuristic and
+                machine learning-based scanning, and USB protection services.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h1>Experience</h1>
+            <div class="exp-card">
+                <h2>Software Developer - RAM Antivirus Pvt Ltd</h2>
+                <p><i class="fas fa-calendar-alt"></i> Jan 2023 – Present</p>
+                <ul>
+                    <li>Developed and enhanced Windows security solutions, including real-time scanning services,
+                        heuristic analysis, and machine learning-based malware detection.</li>
+                    <li>Created Windows services for RAM Antivirus, improving real-time protection and USB security
+                        services.</li>
+                    <li>Integrated advanced network analysis and file-less malware detection techniques into the
+                        application.</li>
+                    <li>Enhanced user interface using WPF with Modern UI tools and Maha Apps Theme for improved user
+                        experience.</li>
+                    <li>Collaborated with internal teams, including the graphics design team, to improve product UI/UX.
+                    </li>
+                    <li>Documented technical specifications and proprietary software for internal use and future
+                        development.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h2>RAM Antivirus</h2>
+                    <p className="tech-stack">C# | Python | AI & ML</p>
+                    <ul className="project-list">
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Developed heuristic-based scanning and real-time malware detection algorithms.</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Implemented a USB protection service to detect and neutralize threats from external
+                                devices.</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Enhanced antivirus UI to be more dynamic and added functionalities to improve overall
+                                effectiveness.</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Successfully deployed the product to 5000+ customers in India and 900+ in the
+                                UK.</span>
+                        </li>
+                    </ul>
+                    <a class="Demo" href="https://github.com/rjghongade/RAM_AntiVirus" target="_blank">Demo <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <h2>Financial Market Prediction</h2>
+                    <p className="tech-stack">Python | Flask | Machine Learning | HTML | CSS | Streamlit</p>
+                    <ul className="project-list">
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Built a stock/crypto/forex prediction system using machine learning models (Linear
+                                Regression, Random Forest).</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Scraped and cleaned financial data from various sources for accurate analysis.</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Deployed the model as a web-based tool for real-time financial predictions.</span>
+                        </li>
+                    </ul>
+                    <a class="Demo" href="https://github.com/rjghongade/Stock_Prediction_Days" target="_blank">Demo <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <h2>Dynamic Malware Analysis</h2>
+                    <p className="tech-stack">Python | Linux | Machine Learning</p>
+                    <ul className="project-list">
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Developed an automated malware analysis tool for real-time threat detection.</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Improved detection and response time to evolving malware threats.</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Designed compatibility with Linux systems for enhanced security and
+                                performance.</span>
+                        </li>
+                    </ul>
+                    <a class="Demo" href="https://github.com/rjghongade/File_Less-Malware" target="_blank">Demo <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <h2>Shivganesh Information Management System</h2>
+                    <p className="tech-stack">PHP | HTML | CSS</p>
+                    <ul className="project-list">
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Created a dual-panel system for administrators and users for information
+                                management.</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Implemented secure authentication to maintain data integrity.</span>
+                        </li>
+                    </ul>
+                    <a class="Demo" href="https://shivganesh.com/" target="_blank">Demo <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <h2>Sulochan Hospital Website</h2>
+                    <p className="tech-stack">Angular | HTML | CSS</p>
+                    <ul className="project-list">
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Built stock/crypto/forex prediction system using ML models</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Deployed as web-based tool for real-time financial predictions</span>
+                        </li>
+                    </ul>
+                    <a class="Demo" href="https://sulochan.techamica.com/" target="_blank">Demo <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <h2>Folder-Locker</h2>
+                    <p className="tech-stack">C# | WPF </p>
+                    <ul className="project-list">
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Folder Locking: Users can select folders they want to secure, and the application employs encryption or access control mechanisms to prevent unauthorized access.</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Password Protection: Folders are typically protected with a password, PIN, or passphrase. Access is granted only to those who know the correct combination.</span>
+                        </li>
+                    </ul>
+                    <a class="Demo" href="https://github.com/rjghongade/Folder-Locker" target="_blank">Demo <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <h2>Automated WhatsApp Reminders</h2>
+                    <p className="tech-stack">C# | WPF </p>
+                    <ul className="project-list">
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Store contacts, message content, and send times (can use a local database or JSON file).</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Implement a scheduler in C# to send messages at specified times.</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Authenticate the user in WhatsApp Web.</span>
+                        </li>
+                    </ul>
+                    <a class="Demo" href="https://github.com/rjghongade/" target="_blank">Demo <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <h2>Online Padhai - E-Learning Platform</h2>
+                    <p className="tech-stack">React | Python | Node </p>
+                    <ul className="project-list">
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Online Padhai is an interactive e-learning platform developed using React that provides students with a seamless learning experience.</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>Online Padhai is designed to help learners acquire knowledge efficiently and effectively through a structured curriculum and engaging content.</span>
+                        </li>
+                    </ul>
+                    <a class="Demo" href="https://github.com/rjghongade/online_padhai" target="_blank">Demo <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <h2>Navigation Drawer in a C# WPF Application</h2>
+                    <p className="tech-stack">React | Python | Node </p>
+                    <ul className="project-list">
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>A Navigation Drawer (also known as a Side Menu or Hamburger Menu) is a UI component that helps users navigate between different pages or sections of an application.</span>
+                        </li>
+                        <li className="list-item">
+                            <ChevronRight size={16} />
+                            <span>In a C# WPF application, this can be implemented using Grid, StackPanel, ListBox, or third-party libraries like MahApps.Metro or MaterialDesignInXAML.</span>
+                        </li>
+                    </ul>
+                    <a class="Demo"  href="https://github.com/rjghongade/Navigation-Drawer-C-" target="_blank">Demo <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h1>Skills</h1>
+            <ul class="skills-list">
+                <li><i class="fas fa-code"></i> C#, Python, JavaScript, PHP, C/C++</li>
+                <li><i class="fas fa-laptop-code"></i> WPF, MVC, MVVM, Streamlit, Flask, React, Angular</li>
+                <li><i class="fas fa-laptop"></i> HTML, CSS, JavaScript, RESTful API, API Integration</li>
+                <li><i class="fas fa-database"></i> MySQL, SQLite</li>
+                <li><i class="fas fa-chart-line"></i> Regression, Random Forest</li>
+                <li><i class="fas fa-chart-bar"></i> NumPy, Pandas, Matplotlib</li>
+                <li><i class="fas fa-shield-alt"></i> Real-time Malware Detection, Heuristic Scanning, Network Security
+                    Analysis</li>
+                <li><i class="fas fa-cloud"></i> AWS, EC2</li>
+                <li><i class="fas fa-tools"></i> Visual Studio, VS Code, Eclipse, PyCharm, IntelliJ, Git, GitHub,
+                    Postman</li>
+                <li><i class="fas fa-desktop"></i> Windows, Linux (Ubuntu)</li>
+            </ul>
+        </section>
+
+        <section id="certifications">
+            <h1>Participations</h1>
+            <ul>
+                <li>
+                    <ChevronRight size={16} />
+                    <span>Creative Innovations For Skill India Avishkar 2018</span>
+                </li>
+                <li>
+                    <ChevronRight size={16} />
+                    <span>A National Level IT Event PINNACLE 2019</span>
+                </li>
+                <li>
+                    <ChevronRight size={16} />
+                    <span>Intercollegiate Research Convention Avishkar 2019</span>
+                </li>
+            </ul>
+        </section>
+
+        <section id="certifications">
+            <h1>Certifications & Achievements</h1>
+            <ul>
+                <li>Provided RAM Antivirus application in CERT-IN Network Analysis.</li>
+                <li>Developed ML-based heuristic scanning for security enhancement.</li>
+                <li>Implemented file-less malware detection for cybersecurity protection.</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h1>Education</h1>
+            <ul>
+                <li>Masters in Computer Application (MCA) - North Maharashtra University (2023)</li>
+                <li>Bachelor of Science (BSc) Computer Science - Amaravati University (2021)</li>
+            </ul>
+        </section>
+
+        <section id="hobbies">
+            <h1>Hobbies & Interests</h1>
+            <ul>
+                <li>Researching Cybersecurity Trends</li>
+                <li>Painting (Home Decor & Board Art)</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <p><i class="fas fa-envelope"></i> Email: 
+                <a class="Demo" href="mailto:rajughongade9022@gmail.com">rajughongade9022@gmail.com</a>
+            </p>
+        
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rajendra-ghongade-07b337259/" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/rjghongade" class="github" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/raju.ghongade.526/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/raju.ghongade.526/" class="facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://youtube.com/@rjghongade?si=kZXNfAAKQRCceLRu" class="youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
